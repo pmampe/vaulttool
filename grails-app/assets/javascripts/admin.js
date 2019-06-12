@@ -241,7 +241,7 @@ var adminModule = (function ($) {
             var savedApprolePolicies        = $("[name='savedApprolePolicies_" + approle + "']").val();
 
             var $selectedPoliciesContainer = $("#selectedPolicies_" + approle);
-            var policiesToRemove =  $selectedPoliciesContainer.find("span[data-status='unsaved']");  //Undrar varför det är null?
+            var policiesToRemove =  $selectedPoliciesContainer.find("span[data-status='unsaved']");  
             var $selectedPolicies = $("[name='editableApprolePolicies_" + approle +"']");
             var selectedPoliciesValues = $selectedPolicies.val();
 
